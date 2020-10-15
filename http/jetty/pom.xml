@@ -30,7 +30,7 @@
     <description>This is an implementation of the R7 OSGi Http Service and the R7 OSGi Http Whiteboard Specification</description>
 
     <artifactId>org.apache.felix.http.jetty</artifactId>
-    <version>4.0.20</version>
+    <version>4.1.1-abhi-jetty-upgrade</version>
     <packaging>bundle</packaging>
     
     <scm>
@@ -44,7 +44,7 @@
         <!-- Skip because of problems with Java 8 -->
         <animal.sniffer.skip>true</animal.sniffer.skip>
         <felix.java.version>8</felix.java.version>
-        <jetty.version>9.4.30.v20200611</jetty.version>
+        <jetty.version>9.4.32.v20200930</jetty.version>
     </properties>
 
     <build>
