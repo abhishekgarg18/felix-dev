@@ -26,9 +26,23 @@
         <relativePath>../parent/pom.xml</relativePath>
     </parent>
 
+
+     <distributionManagement>
+        <repository>
+            <id>artifactory-dev-releases</id>
+            <name>Adobe AEM Releases</name>
+            <url>https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>artifactory-dev-snapshots</id>
+            <name>Adobe AEM Snapshots</name>
+            <url>https://artifactory.corp.adobe.com/artifactory/maven-aem-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <name>Apache Felix Http Base</name>
     <artifactId>org.apache.felix.http.base</artifactId>
-    <version>4.0.11-SNAPSHOT</version>
+    <version>4.1.1-abhi</version>
     <packaging>jar</packaging>
 
     <scm>
